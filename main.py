@@ -1,6 +1,8 @@
 # Case
 import turtle 
 def square(x,y,size,color,angle):
+  for i in range(4):
+   
   #TODO: (Катя)
   pass
 def triangular(x,y,size,color,angle):
