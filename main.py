@@ -33,9 +33,23 @@ def triangular(x,y,size1,size2,color,angle1,angle2,to_angle):
   return()
   #TODO:(Anna)
 
-def parallelogramm(x,y,size,colot,angle):
+def parallelogramm(x,y,size1,size2,color,angle1,angle2,to_angle):
+  turtle.penup()
+  turtle.goto(x, y)
+  turtle.setheading(to_angle1)
+  turtle.color(color)
+  turtle.begin_fill()
+  turtle.right(angle1)
+  turtle.pendown()
+  for i in range(2):
+    turtle.forward(size1)
+    turtle.right(angle1)
+    turtle.forward(size2)
+    turtle.right(angle2)
+  turtle.end_fill()
+  return()
   #TODO:(Sofya)
-  pass
+
 
 
 
