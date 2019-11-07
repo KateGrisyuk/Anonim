@@ -17,7 +17,7 @@ def square(x,y,size,color,angle,to_angle):
   #TODO:(Kate)
 def triangular(x,y,size,color,angle):
 
-def triangular(x,y,size1,size2,color,angle1,angle2,to_angle):
+def triangle(x,y,size1,size2,color,angle1,angle2,to_angle):
   turtle.penup()
   turtle.goto(x,y)
   turtle.setheading(to_angle)
@@ -31,7 +31,6 @@ def triangular(x,y,size1,size2,color,angle1,angle2,to_angle):
   turtle.forward(size1)
   turtle.right(angle1)
   turtle.forward(size2)
-  turtle.right(angle2)
   turtle.end_fill()
   return()
   #TODO:(Anna)
