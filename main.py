@@ -53,10 +53,11 @@ def parallelogramm(x,y,size1,size2,color,angle1,angle2,to_angle):
   #TODO:(Sofya)
 
 picture Anna 2
-square(-80,-100,50,'brown',90,90)
-triangle(-80,-50,38,50,'red',135,90,180)
-square(-65,-65,20,'yellow',90,90)
+square(-80,-150,50,'brown',90,90)
+triangle(-80,-150,38,50,'red',135,90,180)
+square(-65,-165,20,'yellow',90,90)
 
+picture Anna 3
 
 
 
