@@ -17,6 +17,7 @@ def square(x,y,size,color,angle,to_angle):
   turtle.end_fill()
   return()
   #TODO:(Kate)
+pass
 
 def triangle(x,y,size1,size2,color,angle1,angle2,to_angle):
   turtle.penup()
@@ -35,6 +36,7 @@ def triangle(x,y,size1,size2,color,angle1,angle2,to_angle):
   turtle.end_fill()
   return()
   #TODO:(Anna)
+pass
 
 def parallelogramm(x,y,size1,size2,color,angle1,angle2,to_angle):
   turtle.penup()
@@ -52,6 +54,7 @@ def parallelogramm(x,y,size1,size2,color,angle1,angle2,to_angle):
   turtle.end_fill()
   return()
   #TODO:(Sofya)
+pass
 
 def trapeze(x,y,size1,size2,size3,color,angle1,angle2,to_angle):
     turtle.penup()
@@ -71,13 +74,16 @@ def trapeze(x,y,size1,size2,size3,color,angle1,angle2,to_angle):
     turtle.right(angle2)
     turtle.end_fill()
     return()
-
+    #TODO:(Kate)
+pass
 
 #Picture1 "A wolf"
 parallelogramm(-150,110,30,70,'grey',90,90,180)
 square(-160,160,23,'grey',90,45)
-triangle(-160,160,10,10,'grey',90,135,88)
-triangle(-150,155,10,10,'grey',90,135,88)
+triangle(-158,159,15,15,'grey',90,135,88)
+triangle(-148,155,15,15,'grey',90,135,88)
+square(-162,150,2,'black',90,90)
+square(-153,148,2,'black',90,90)
 parallelogramm(-65,160,10,25,'grey',90,90,45)
 parallelogramm(-140,80,30,15,'grey',90,90,180)
 parallelogramm(-110,80,30,15,'grey',90,90,180)
