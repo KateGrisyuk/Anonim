@@ -52,9 +52,9 @@ def parallelogramm(x,y,size1,size2,color,angle1,angle2,to_angle):
   return()
   #TODO:(Sofya)
 
-  def trapeze(x, y, size1, size2, size3, color, angle1, angle2, to_angle):
+def trapeze(x,y,size1,size2,size3,color,angle1,angle2,to_angle):
     turtle.penup()
-    turtle.goto(x, y)
+    turtle.goto(x,y)
     turtle.setheading(to_angle)
     turtle.color(color)
     turtle.begin_fill()
@@ -69,7 +69,7 @@ def parallelogramm(x,y,size1,size2,color,angle1,angle2,to_angle):
     turtle.forward(size3)
     turtle.right(angle2)
     turtle.end_fill()
-    return ()
+    return()
 
 
 #Picture1 "A wolf"
