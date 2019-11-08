@@ -100,7 +100,7 @@ triangle(-80,-150,38,50,'red',135,90,180)
 square(-65,-165,20,'yellow',90,90)
 #TODO:(Anna)
 
-#Picture6 "A squirrel"
+#Picture6 "A fox"
 triangle(20,-110,13,20,'orange',135,90,90)
 triangle(40,-129,13,20,'orange',135,90,-90)
 square(30,-120,13,'orange',90,45)
