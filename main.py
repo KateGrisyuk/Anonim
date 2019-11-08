@@ -101,6 +101,12 @@ parallelogramm(70,100,10,20,'white',90,90,360)
 parallelogramm(110,100,10,20,'white',90,90,360)
 #TODO:(Kate)
 
+ #Picture3 "A fish"
+square(-160,0,50,'green',90,45)
+square(-146,-54,23,'blue',90,45)
+parallelogramm(-117,-37,10,25,'red',135,45,300)
+parallelogramm(-125,-42,10,25,'red',135,45,210)
+
 #Picture5 "A house"
 square(-80,-150,50,'brown',90,90)
 triangle(-80,-150,38,50,'red',135,90,180)
