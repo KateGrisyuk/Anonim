@@ -100,7 +100,6 @@ parallelogramm(110, 100, 10, 20, 'white', 90, 90, 360)
 # TODO:(Kate)
 
 # Picture3 "A fish"
-#Picture3 "A fish"
 x0, y0 = (-130, 0)
 square(x0, y0, 50, 'green', 90, 45)
 square(x0 + 17, y0 - 55, 23, 'blue', 90, 45)
