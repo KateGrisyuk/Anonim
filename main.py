@@ -100,9 +100,16 @@ parallelogramm(110, 100, 10, 20, 'white', 90, 90, 360)
 # TODO:(Kate)
 
 # Picture3 "A fish"
-square(-160, 20, 40, 'green', 90, 45)
-triangle(-140, 40, 20, 20, 'purple', 135, 90, 45)
-# TODO:(Sofya)
+#Picture3 "A fish"
+x0, y0 = (-130, 0)
+square(x0, y0, 50, 'green', 90, 45)
+square(x0 + 17, y0 - 55, 23, 'blue', 90, 45)
+parallelogramm(x0 + 50, y0 - 35, 15, 25, 'red', 135, 45, 315)
+triangle(x0 + 21, y0 - 21, 30, 30, 'magenta', 135, 90, 270)
+triangle(x0 + 35, y0 - 35, 15, 15, 'yellow', 135, 90, 135)
+triangle(x0 + 65, y0 - 50, 15, 15, 'orange', 135, 90, 315)
+#TODO:(Sofya)
+
 
 # Picture5 "A house"
 square(-80, -150, 50, 'brown', 90, 90)
