@@ -119,7 +119,6 @@ triangle(x0 - 12, y0 - 32, 16, 16, 'maroon', 135, 90, 180)
 triangle(x0 + 43, y0 - 21, 43, 43, 'orange', 135, 90, 90)
 triangle(x0 + 43, y0 - 70, 16, 16, 'red', 135, 90, 45)
 parallelogramm(x0 + 87, y0 - 73, 15, 25, 'yellow', 135, 45, 30)
-
 #TODO:(Sofya)
 
 
