@@ -75,12 +75,12 @@ def parallelogramm(x,y,size1,size2,color,angle1,angle2,to_angle):
 #Picture1 "A wolf"
 parallelogramm(-150,110,30,70,'grey',90,90,180)
 square(-160,160,23,'grey',90,45)
-triangle(-158,159,10,10,'grey',90,135,88)
-triangle(-148,152,10,10,'grey',90,135,88)
+triangle(-160,160,10,10,'grey',90,135,88)
+triangle(-150,155,10,10,'grey',90,135,88)
 parallelogramm(-65,160,10,25,'grey',90,90,45)
 parallelogramm(-140,80,30,15,'grey',90,90,180)
 parallelogramm(-110,80,30,15,'grey',90,90,180)
-# TODO:(Kate)
+#TODO:(Kate)
 
 #Picture2 "A ship"
 trapeze(120,80,40,120,80,'green',60,120,360)
