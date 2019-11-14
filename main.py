@@ -52,26 +52,6 @@ def parallelogramm(x,y,size1,size2,color,angle1,angle2,to_angle):
   return()
   #TODO:(Sofya)
 
-  def trapeze(x, y, size1, size2, size3, color, angle1, angle2, to_angle):
-    turtle.penup()
-    turtle.goto(x, y)
-    turtle.setheading(to_angle)
-    turtle.color(color)
-    turtle.begin_fill()
-    turtle.right(angle2)
-    turtle.pendown()
-    turtle.backward(size1)
-    turtle.right(angle1)
-    turtle.forward(size2)
-    turtle.right(angle1)
-    turtle.backward(size1)
-    turtle.right(angle2)
-    turtle.forward(size3)
-    turtle.right(angle2)
-    turtle.end_fill()
-    return ()
-
-
 #Picture1 "A wolf"
 parallelogramm(-150,110,30,70,'grey',90,90,180)
 square(-160,160,23,'grey',90,45)
@@ -83,7 +63,8 @@ parallelogramm(-110,80,30,15,'grey',90,90,180)
 #TODO:(Kate)
 
 #Picture2 "A ship"
-trapeze(120,80,40,120,80,'green',60,120,360)
+parallelogramm(120,80,80,40,'green',60,120,240)
+parallelogramm(60,113,80,40,'green',120,60,120)
 parallelogramm(130,135,20,100,'blue',90,90,360)
 parallelogramm(100,145,10,40,'red',90,90,360)
 turtle.goto(80,145)
