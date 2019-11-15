@@ -1,6 +1,8 @@
 #Case1
 
+
 import turtle
+
 def square(x,y,size,color,angle,to_angle):
   turtle.penup()
   turtle.goto(x,y)
@@ -110,14 +112,16 @@ square(-65,-165,20,'yellow',90,90)
 #TODO:(Anna)
 
 
-#Picture6 "A fox" triangle(20,-110,13,20,'orange',135,90,90)
+#Picture6 "A fox" 
+triangle(20,-110,13,20,'orange',135,90,90)
 triangle(40,-129,13,20,'orange',135,90,270)
 square(30,-120,13,'orange',90,45)
 triangle(20,-150,29,40,'orange',135,90,180)
 triangle(785,-138,23,30,'orange',135,90,360)
 triangle(56,-155,32,50,'orange',135,90,180)
 square(26,-125,2,'black',90,45)
-square(34,-125,2,'black',90,45) #TODO:(Anna)
+square(34,-125,2,'black',90,45) 
+#TODO:(Anna)
 
 
 
