@@ -97,9 +97,9 @@ parallelogramm(x0 + 87, y0 - 73, 15, 25, 'yellow', 135, 45, 30)
 #TODO:(Sofya)
 
 #Picture5 "A house"
-square(-80,-150,50,'brown',90,90)
-triangle(-80,-150,38,50,'red',135,90,180)
-square(-65,-165,20,'yellow',90,90)
+square(-100,-130,50,'brown',90,90)
+triangle(-100,-130,38,50,'red',135,90,180)
+square(-85,-145,20,'yellow',90,90)
 #TODO:(Anna)
 
 #Picture6 "A fox"
